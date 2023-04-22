@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(8, 8, 8);
+    padding: 12px;
+}
+
+.logo{
+    color: white;
+    font-family:Verdana;
+    padding: 8px;
+}
+
+.logo span{
+    color: red;
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li{
+    padding: 8px;
+    font-family: verdana;
+    font-size: 22px;
+}
+
+.nav li  a{
+    text-decoration: none;
+    color: white;
+    margin-right: 12px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    height: auto;
+}
+
+.cont_text{
+    margin-right: 47px;
+}
+
+.cont_text h2{
+    font-family: verdana;
+    font-size: 38px;
+    margin-bottom: 16px;
+}
+
+.cont_text p{
+    font-family:'Segoe UI' ;
+    font-size: 24px;
+}
+
+.contpic{
+    height: 450px;
+    margin-right: 8px;
+    border-radius: 12px;
+}
+
+/* about me side */
+
+.about-section{
+    background-color: rgb(8, 8, 8);
+    height: auto;
+    margin-top: 48px;
+
+
+}
+
+.about-section h2{
+    text-align: center;
+    color: red;
+    font-family: verdana;
+    font-size: 32px;
+    padding: 24px 8px;
+}
+
+.about-section p{
+   color: white;  
+   font-family:'Segoe UI';
+   text-align: center; 
+   font-size: 18px;
+   padding-bottom: 8px;
+   
+   
+}
+
+/* skills section */
+.skills-section{
+    height: auto;
+
+}
+
+.skills-section h2{
+    text-align: center;
+    color: red;
+    font-family: verdana;
+    font-size: 32px;
+    margin-bottom: 24px;
+    padding-top: 24px ;
+    
+
+    
+}
+
+.html{
+   height: 125px;
+   margin-left: 560px;
+}
+
+.css{
+    height: 125px;
+}
+
+/* Contact section for the css */
+
+.contact-section{
+    background-color:  rgb(8, 8, 8);
+    height: auto;
+    margin-top: 48px;
+    
+    
+}
+
+.contact-section h2{
+    color: red;
+    text-align: center;
+    font-family: verdana;
+    font-size: 32px;
+    padding: 24px 8px;
+}
+
+.forms-section{
+    display: inline-block;
+    margin-right: 480px;
+    margin-left: 90px;
+}
+
+.forms-section textarea{
+    height: 100px;
+    width: 220px;
+    border-radius: 4px;
+    outline: none;
+    font-family: 'sagoe UI';
+    margin-top: 8px;
+
+}
+
+input[type ="Submit"]{
+    padding: 8px 12px;
+    background: red;
+    border: none;
+    border-radius: 4px;
+    margin-top: auto;
+}
+
+.contact-section label{
+    color: white;
+    font-family: verdana;
+    
+
+}
+
+.icons-section{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.icons-section h3 {
+    color: white;
+    font-family: verdana;
+}
+
