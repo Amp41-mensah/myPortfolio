@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .navbar-section {
@@ -8,6 +9,8 @@
     justify-content: space-around;
     background-color: rgb(8, 8, 8);
     padding: 12px;
+    position: fixed;
+    width: 100%;
 }
 
 .logo{
@@ -37,11 +40,11 @@
     margin-right: 12px;
 }
 
-.content{
+#content{
     display: flex;
     justify-content: center;
     padding-top: 24px;
-    height: auto;
+   
 }
 
 .cont_text{
@@ -52,6 +55,7 @@
     font-family: verdana;
     font-size: 38px;
     margin-bottom: 16px;
+    margin-top: 80px;
 }
 
 .cont_text p{
@@ -63,11 +67,12 @@
     height: 450px;
     margin-right: 8px;
     border-radius: 12px;
+    margin-top: 80px;
 }
 
 /* about me side */
 
-.about-section{
+#about-section{
     background-color: rgb(8, 8, 8);
     height: auto;
     margin-top: 48px;
@@ -75,7 +80,7 @@
 
 }
 
-.about-section h2{
+#about-section h2{
     text-align: center;
     color: red;
     font-family: verdana;
@@ -83,7 +88,7 @@
     padding: 24px 8px;
 }
 
-.about-section p{
+#about-section p{
    color: white;  
    font-family:'Segoe UI';
    text-align: center; 
@@ -94,12 +99,12 @@
 }
 
 /* skills section */
-.skills-section{
+#skills-section{
     height: auto;
 
 }
 
-.skills-section h2{
+#skills-section h2{
     text-align: center;
     color: red;
     font-family: verdana;
@@ -122,7 +127,7 @@
 
 /* Contact section for the css */
 
-.contact-section{
+#contact-section{
     background-color:  rgb(8, 8, 8);
     height: auto;
     margin-top: 48px;
@@ -130,7 +135,7 @@
     
 }
 
-.contact-section h2{
+#contact-section h2{
     color: red;
     text-align: center;
     font-family: verdana;
@@ -159,10 +164,10 @@ input[type ="Submit"]{
     background: red;
     border: none;
     border-radius: 4px;
-    margin-top: auto;
+    margin-bottom: 40px;
 }
 
-.contact-section label{
+#contact-section label{
     color: white;
     font-family: verdana;
     
@@ -177,5 +182,6 @@ input[type ="Submit"]{
 .icons-section h3 {
     color: white;
     font-family: verdana;
+    margin-left: 6px;
 }
 
